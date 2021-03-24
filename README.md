@@ -1,6 +1,7 @@
 # RISC-V Simulator
 
 Commands used to run the program:
+
 g++ -g -ansi -pedantic -Wall -Werror -std=c++14 -c -o main.o main.cpp
 
 g++ -g -ansi -pedantic -Wall -Werror -std=c++14 -c -o rv32i.o rv32i.cpp
