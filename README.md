@@ -19,18 +19,13 @@ Usage: rv32i [-m hex-mem-size] [-l execution-limit] [-dirz] infile
 Commands used to run the program:
 ```
 g++ -g -ansi -pedantic -Wall -Werror -std=c++14 -c -o main.o main.cpp
-
 g++ -g -ansi -pedantic -Wall -Werror -std=c++14 -c -o rv32i.o rv32i.cpp
-
 g++ -g -ansi -pedantic -Wall -Werror -std=c++14 -c -o memory.o memory.cpp
-
 g++ -g -ansi -pedantic -Wall -Werror -std=c++14 -c -o registerfile.o registerfile.cpp
-
 g++ -g -ansi -pedantic -Wall -Werror -std=c++14 -c -o hex.o hex.cpp
-
 g++ -g -ansi -pedantic -Wall -Werror -std=c++14 -o rv32i main.o rv32i.o memory.o registerfile.o hex.o
 ```
-Commands used to generate the output:
+Commands used to run the program and generate the output:
 ```
 # Run the application
 g++ -g -ansi -pedantic -Wall -Werror -std=c++14 -c -o main.o main.cpp
