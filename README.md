@@ -16,7 +16,7 @@ Usage: rv32i [-m hex-mem-size] [-l execution-limit] [-dirz] infile
      
      -z show a dump of the hart and memory after simulation
 
-Commands used to run the program:
+Commands used to compile the program:
 ```
 g++ -g -ansi -pedantic -Wall -Werror -std=c++14 -c -o main.o main.cpp
 g++ -g -ansi -pedantic -Wall -Werror -std=c++14 -c -o rv32i.o rv32i.cpp
@@ -25,7 +25,7 @@ g++ -g -ansi -pedantic -Wall -Werror -std=c++14 -c -o registerfile.o registerfil
 g++ -g -ansi -pedantic -Wall -Werror -std=c++14 -c -o hex.o hex.cpp
 g++ -g -ansi -pedantic -Wall -Werror -std=c++14 -o rv32i main.o rv32i.o memory.o registerfile.o hex.o
 ```
-Commands used to run the program and generate the output:
+Commands used to compile, run the program and generate the output:
 ```
 # Run the application
 g++ -g -ansi -pedantic -Wall -Werror -std=c++14 -c -o main.o main.cpp
