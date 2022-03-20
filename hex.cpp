@@ -1,10 +1,3 @@
-//*********************************************************************
-// hex.cpp						              
-// CSCI 463 - Assignment 4					      
-//							 	      
-// Created by Isen Kasoski (Z1875089)				      
-//							 	      
-//*********************************************************************
 #include "hex.h"
 
 #include<sstream>
@@ -13,8 +6,7 @@
 #include<iostream>
 
 /**
- * This function will return a std::string with exactly 2 hex digits   
- * representing the 8 bits of the i argument.			      
+ * Returns a std::string with exactly 2 hex digits representing the 8 bits of the i argument.			      
  *								      
  * @param i is a uint8_t that contains the 8 bits to be converted.     
  *								      
@@ -29,8 +21,7 @@ std::string hex8(uint8_t i)
 }
 
 /**
- * This function will return a std::string with exactly 8 hex digits   
- * representing the 32 bits of the i argument.			      
+ * Returns a std::string with exactly 8 hex digits representing the 32 bits of the i argument.			      
  *								      
  * @param i is a uint32_t that contains the 32 bits to be converted.   
  *								      
@@ -45,7 +36,7 @@ std::string hex32(uint32_t i)
 }
 
 /**
- * This function will return a std::string beginning with 0x,          
+ * Returns a std::string beginning with 0x,          
  * followed by the 8 hex digits representing the 32 bits of the i arg. 
  * 								      
  * @param i is a uint32_t that contains the 32 bits to be converted.   

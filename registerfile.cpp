@@ -1,10 +1,3 @@
-//*********************************************************************
-// registerfile.cpp							      
-// CSCI 463 - Assignment 5					      
-//							 	      
-// Created by Isen Kasoski (Z1875089)				      
-//							 	      
-//*********************************************************************
 #include "hex.h"
 #include "registerfile.h"
 #include <sstream>
